@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3A216CE9-B2B8-4358-8988-862A65C300F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Subscriber</RootNamespace>
-    <AssemblyName>Subscriber</AssemblyName>
+    <RootNamespace>Lateetud.NServiceBus.Subscriber</RootNamespace>
+    <AssemblyName>Lateetud.NServiceBus.Subscriber</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,8 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Messages">
-      <HintPath>..\..\Messages\Messages\bin\Debug\Messages.dll</HintPath>
+    <Reference Include="Lateetud.NServiceBus.Common">
+      <HintPath>..\..\Research.Lateetud.NServiceBus.Common\Lateetud.NServiceBus.Common\bin\Debug\Lateetud.NServiceBus.Common.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -47,6 +47,7 @@
       <HintPath>..\packages\NServiceBus.Persistence.Sql.2.2.0\lib\net452\NServiceBus.Persistence.Sql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

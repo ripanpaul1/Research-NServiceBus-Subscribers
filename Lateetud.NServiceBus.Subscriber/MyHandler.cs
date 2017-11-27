@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using NServiceBus;
-using Messages;
+using Lateetud.NServiceBus.Common;
 using NServiceBus.Logging;
 
 public class MyHandler :
