@@ -5,6 +5,7 @@ using Lateetud.NServiceBus.Common;
 using NServiceBus.Persistence.Sql;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Collections.Generic;
 
 namespace Lateetud.NServiceBus.Subscriber
 {
@@ -12,42 +13,14 @@ namespace Lateetud.NServiceBus.Subscriber
     {
         static void Main(string[] args)
         {
-            InitializeQueue("testqueue.Subscriber", "testqueue.Publisher").GetAwaiter().GetResult();
+            //MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
+            //List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
+            //publisherEndpoints.Add(new PublisherEndpoints(endpointName: "testqueue.Publisher", messageType: typeof(TestMessage)));
+            //var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("testqueue.Subscriber", publisherEndpoints);
+            //msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
 
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
-        }
-
-        // InitiazeQueue
-        static async Task InitializeQueue(string EndpointName_Subscriber, string EndpointName_Publisher)
-        {
-            var endpointConfiguration = new EndpointConfiguration(EndpointName_Subscriber);
-            endpointConfiguration.SendFailedMessagesTo("error");
-            endpointConfiguration.EnableInstallers();
-
-            var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
-            persistence.SqlVariant(SqlVariant.MsSqlServer);
-            persistence.ConnectionBuilder(
-                connectionBuilder: () =>
-                {
-                    return new SqlConnection(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
-                });
-            var subscriptions = persistence.SubscriptionSettings();
-            subscriptions.CacheFor(TimeSpan.FromDays(Convert.ToDouble(ConfigurationManager.AppSettings["Persistence.Subscriptions.CacheFor"])));
-
-            var transport = endpointConfiguration.UseTransport<MsmqTransport>();
-            var routing = transport.Routing();
-            routing.RegisterPublisher(
-                assembly: typeof(RowMessage).Assembly,
-                publisherEndpoint: EndpointName_Publisher);
-
-            var endpointInstance = await Endpoint.Start(endpointConfiguration)
-                .ConfigureAwait(false);
-
-            Console.WriteLine("Press any key to exit");
-            Console.ReadKey();
-            await endpointInstance.Stop()
-                .ConfigureAwait(false);
         }
     }
 }
