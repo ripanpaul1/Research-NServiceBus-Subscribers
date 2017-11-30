@@ -11,7 +11,7 @@ public class MyHandler :
 
     public Task Handle(TestMessage message, IMessageHandlerContext context)
     {
-        log.Info($"Subscriber has received RowMessage event with OrderId {message.Message}.");
+        log.Info($"Subscriber has received TestMessage event with OrderId {message.Message}.");
         return Task.CompletedTask;
     }
 }
