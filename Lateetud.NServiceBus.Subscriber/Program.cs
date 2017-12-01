@@ -17,12 +17,12 @@ namespace Lateetud.NServiceBus.Subscriber
             List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
             publisherEndpoints.Add(new PublisherEndpoints(endpointName: "NEC.GeneralAgent.Publisher", messageType: typeof(NECGeneralAgent)));
             var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", publisherEndpoints);
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
+            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
             publisherEndpoints.Clear();
             publisherEndpoints.Add(new PublisherEndpoints(endpointName: "NEC.GeneralAgent.Publisher", messageType: typeof(NECGeneralAgentResult)));
             endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", publisherEndpoints);
-            msmqsqldbconfig.StartEndpoint(endpointConfiguration).GetAwaiter().GetResult();
+            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
 
             Console.WriteLine("Press any key to exit");
