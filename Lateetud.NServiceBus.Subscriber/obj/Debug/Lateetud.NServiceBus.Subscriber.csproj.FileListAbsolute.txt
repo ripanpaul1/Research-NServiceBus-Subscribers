@@ -54,10 +54,17 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Latee
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.Subscriber.exe.config
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.Subscriber.exe
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.Subscriber.pdb
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\EntityFramework.dll
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\EntityFramework.SqlServer.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.Common.dll
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.DAL.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Newtonsoft.Json.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\NServiceBus.Core.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\NServiceBus.Persistence.Sql.dll
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.DAL.pdb
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.DAL.dll.config
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\EntityFramework.xml
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\EntityFramework.SqlServer.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Lateetud.NServiceBus.Common.pdb
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\Newtonsoft.Json.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\NServiceBus.Core.pdb
@@ -65,6 +72,8 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Latee
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\NServiceBus.Persistence.Sql.pdb
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Debug\NServiceBus.Persistence.Sql.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Debug\Lateetud.NServiceBus.Subscriber.csprojResolveAssemblyReference.cache
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Debug\Lateetud.NServiceBus.Subscriber.ProjectInstaller.resources
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Debug\Lateetud.NServiceBus.Subscriber.csproj.GenerateResource.Cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Debug\Lateetud.NServiceBus.Subscriber.csproj.CoreCompileInputs.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Debug\Lateetud.NServiceBus.Subscriber.exe
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Debug\Lateetud.NServiceBus.Subscriber.pdb
