@@ -1,0 +1,109 @@
+﻿Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Rolling back assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing service Sub_Service...
+Service Sub_Service has been successfully installed.
+Creating EventLog source Sub_Service in log Application...
+Committing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Uninstalling assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Removing EventLog source Sub_Service.
+Service Sub_Service is being removed from the system...
+Service Sub_Service was successfully removed from the system.
+Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing service Sub_Service...
+Creating EventLog source Sub_Service in log Application...
+Rolling back assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Restoring event log to previous state for source Sub_Service.
+Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing service Sub_Service...
+Creating EventLog source Sub_Service in log Application...
+Rolling back assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Restoring event log to previous state for source Sub_Service.
+Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing service Sub_Service...
+Service Sub_Service has been successfully installed.
+Creating EventLog source Sub_Service in log Application...
+Committing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Uninstalling assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Removing EventLog source Sub_Service.
+Service Sub_Service is being removed from the system...
+Service Sub_Service was successfully removed from the system.
+Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Rolling back assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Installing service Sub_Service...
+Service Sub_Service has been successfully installed.
+Creating EventLog source Sub_Service in log Application...
+Committing assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Uninstalling assembly 'E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.InstallLog
+   assemblypath = E:\Old Laptop\Drive_D\Lateetud\NServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe
+Removing EventLog source Sub_Service.
+Service Sub_Service is being removed from the system...
+Service Sub_Service was successfully removed from the system.
