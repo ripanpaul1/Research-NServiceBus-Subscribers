@@ -27,5 +27,10 @@ namespace Lateetud.NServiceBus.Subscriber
         {
             // TODO: Add code here to perform any tear-down necessary to stop your service.
         }
+
+        public void debug()
+        {
+            OnStart(null);
+        }
     }
 }

@@ -10,11 +10,12 @@ public class NECGeneralAgentHandler :
     static ILog log = LogManager.GetLogger<NECGeneralAgentHandler>();
     public Task Handle(NECGeneralAgent message, IMessageHandlerContext context)
     {
+        Lateetud.NServiceBus.Subscriber.CenturySuretyProcess1.CenturysuretyProcessService csp = new Lateetud.NServiceBus.Subscriber.CenturySuretyProcess1.CenturysuretyProcessService();
+        csp.Credentials = new System.Net.NetworkCredential("admin", "Password123");
+        var response = csp.CenturysuretyProcess(message.Message);
+
         BaseManager manager = new BaseManager();
-        manager.Insert(message.MessageID, message.Message);
-
-
-
+        manager.Update(message.MessageID, response);
 
         return Task.CompletedTask;
     }

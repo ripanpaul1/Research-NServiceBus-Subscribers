@@ -24,11 +24,11 @@ namespace Lateetud.NServiceBus.DAL
             }
         }
 
-        public void Update(string GeneralAgentID)
+        public void Update(string GeneralAgentID, string Status)
         {
             using (var context = new NECGeneralAgentEntities())
             {
-                context.GeneralAgent_InsertUpdate("U", GeneralAgentID, null, "Received");
+                context.GeneralAgent_InsertUpdate("U", GeneralAgentID, null, Status);
             }
         }
 
