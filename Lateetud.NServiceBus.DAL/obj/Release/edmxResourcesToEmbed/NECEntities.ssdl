@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="NECGeneralAgentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'NECGeneralAgent.dbo.GeneralAgent' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="GeneralAgent">
     <Key>
       <PropertyRef Name="ID" />
@@ -23,15 +21,6 @@ warning 6002: The table/view 'NECGeneralAgent.dbo.GeneralAgent' does not have a 
     <Parameter Name="GeneralAgentID" Type="varchar" Mode="In" />
   </Function>
   <EntityContainer Name="NECGeneralAgentModelStoreContainer">
-    <EntitySet Name="GeneralAgent" EntityType="Self.GeneralAgent" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [GeneralAgent].[ID] AS [ID], 
-    [GeneralAgent].[GeneralAgentID] AS [GeneralAgentID], 
-    [GeneralAgent].[Message] AS [Message], 
-    [GeneralAgent].[Status] AS [Status], 
-    [GeneralAgent].[CreateDateTime] AS [CreateDateTime], 
-    [GeneralAgent].[UpdateDateTime] AS [UpdateDateTime]
-    FROM [dbo].[GeneralAgent] AS [GeneralAgent]</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="GeneralAgent" EntityType="Self.GeneralAgent" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

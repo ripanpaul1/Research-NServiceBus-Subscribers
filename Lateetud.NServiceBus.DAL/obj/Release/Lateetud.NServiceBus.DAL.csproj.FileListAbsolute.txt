@@ -8,4 +8,3 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Latee
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.DAL\obj\Release\Lateetud.NServiceBus.DAL.csproj.CoreCompileInputs.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.DAL\obj\Release\Lateetud.NServiceBus.DAL.dll
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.DAL\obj\Release\Lateetud.NServiceBus.DAL.pdb
-E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.DAL\obj\Release\Lateetud.NServiceBus.DAL.csprojResolveAssemblyReference.cache

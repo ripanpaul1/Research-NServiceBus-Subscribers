@@ -12,17 +12,17 @@ namespace Lateetud.NServiceBus.Subscriber
     {
         static void Main(string[] args)
         {
-            //ServiceBase[] serviceBase;
-            //serviceBase = new ServiceBase[]
-            //{
-            //    new Lateetud()
-            //};
-            //ServiceBase.Run(serviceBase);
+            ServiceBase[] serviceBase;
+            serviceBase = new ServiceBase[]
+            {
+                new Lateetud()
+            };
+            ServiceBase.Run(serviceBase);
 
 
-            new Lateetud().debug();
+            //new Lateetud().debug();
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         public void ServiceConfig()

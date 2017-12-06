@@ -42,3 +42,5 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Latee
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\NServiceBus.Persistence.Sql\Oracle\Timeout_Drop.sql
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.exe.config
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.pdb
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\Lateetud.NServiceBus.Subscriber.XmlSerializers.dll
+E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Release\Lateetud.NServiceBus.Subscriber.XmlSerializers.dll
