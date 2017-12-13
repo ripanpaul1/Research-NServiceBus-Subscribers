@@ -20,25 +20,24 @@ namespace Lateetud.NServiceBus.Subscriber
             ServiceBase.Run(serviceBase);
 
 
+
             //new Lateetud().debug();
 
-            //Console.ReadKey();
+            //var key = Console.ReadKey();
+
         }
 
         public void ServiceConfig()
         {
-            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString);
-
+            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString, 1, 5);
 
             List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
             publisherEndpoints.Add(new PublisherEndpoints(endpointName: "NEC.GeneralAgent.Publisher", messageType: typeof(NECGeneralAgent)));
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", publisherEndpoints);
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", "NEC.GeneralAgent.Error", publisherEndpoints);
             msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
-            //publisherEndpoints.Clear();
-            //publisherEndpoints.Add(new PublisherEndpoints(endpointName: "NEC.GeneralAgent.Publisher", messageType: typeof(NECGeneralAgentResult)));
-            //endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", publisherEndpoints);
-            //msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
+            endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Error");
+            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
         }
     }
