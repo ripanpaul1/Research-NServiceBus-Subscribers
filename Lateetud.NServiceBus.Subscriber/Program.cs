@@ -33,10 +33,7 @@ namespace Lateetud.NServiceBus.Subscriber
 
             List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
             publisherEndpoints.Add(new PublisherEndpoints(endpointName: "NEC.GeneralAgent.Publisher", messageType: typeof(NECGeneralAgent)));
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", "NEC.GeneralAgent.Error", publisherEndpoints);
-            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
-
-            endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Error");
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", publisherEndpoints);
             msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
         }

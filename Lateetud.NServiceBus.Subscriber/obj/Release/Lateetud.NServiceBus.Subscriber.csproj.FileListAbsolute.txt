@@ -37,7 +37,6 @@ E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Latee
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\NServiceBus.Core.xml
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\NServiceBus.Persistence.Sql.pdb
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\NServiceBus.Persistence.Sql.xml
-E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Release\Lateetud.NServiceBus.Subscriber.csprojResolveAssemblyReference.cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Release\Lateetud.NServiceBus.Subscriber.ProjectInstaller.resources
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Release\Lateetud.NServiceBus.Subscriber.csproj.GenerateResource.Cache
 E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\obj\Release\Lateetud.NServiceBus.Subscriber.csproj.CoreCompileInputs.cache
