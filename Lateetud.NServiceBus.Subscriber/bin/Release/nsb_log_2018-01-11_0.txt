@@ -1,0 +1,1 @@
+﻿2018-01-11 20:35:13.289 INFO  DefaultFactory Logging to 'E:\OfficeWork\ResearchNServiceBus\Research.Lateetud.NServiceBus.Subscriber\Lateetud.NServiceBus.Subscriber\bin\Release\' with level Info

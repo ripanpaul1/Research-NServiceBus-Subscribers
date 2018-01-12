@@ -22,16 +22,5 @@ namespace Lateetud.NServiceBus.Subscriber.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://RIPANPC:8181/ws/CenturysuretyProcess")]
-        public string Lateetud_NServiceBus_Subscriber_CenturySuretyProcess1_CenturysuretyProcessService {
-            get {
-                return ((string)(this["Lateetud_NServiceBus_Subscriber_CenturySuretyProcess1_CenturysuretyProcessService" +
-                    ""]));
-            }
-        }
     }
 }

@@ -3,7 +3,7 @@ using System;
 using System.Configuration;
 using System.Collections.Generic;
 using Lateetud.NServiceBus.Common;
-using Lateetud.NServiceBus.Common.Models.NECGeneralAgent;
+using Lateetud.NServiceBus.Common.Models.Smart;
 using System.ServiceProcess;
 
 namespace Lateetud.NServiceBus.Subscriber
@@ -21,19 +21,24 @@ namespace Lateetud.NServiceBus.Subscriber
 
 
 
-            //new Lateetud().debug();
+            new Lateetud().debug();
 
-            //var key = Console.ReadKey();
+            var key = Console.ReadKey();
 
         }
 
         public void ServiceConfig()
         {
-            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["SqlPersistence"].ConnectionString, 1, 5);
+            MsmqSqlDBConfiguration msmqsqldbconfig = new MsmqSqlDBConfiguration(ConfigurationManager.ConnectionStrings["Lateetud.db.conn"].ConnectionString, "smart.error", 1, 5);
 
             List<PublisherEndpoints> publisherEndpoints = new List<PublisherEndpoints>();
-            publisherEndpoints.Add(new PublisherEndpoints(endpointName: "NEC.GeneralAgent.Publisher", messageType: typeof(NECGeneralAgent)));
-            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("NEC.GeneralAgent.Subscriber", publisherEndpoints);
+            publisherEndpoints.Add(new PublisherEndpoints(endpointName: "smart.publisher", messageType: typeof(OCR)));
+            var endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("smart.subscriber", publisherEndpoints);
+            msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
+
+            publisherEndpoints.Clear();
+            publisherEndpoints.Add(new PublisherEndpoints(endpointName: "smart.publisher", messageType: typeof(RPA)));
+            endpointConfiguration = msmqsqldbconfig.ConfigureEndpoint("smart.subscriber", publisherEndpoints);
             msmqsqldbconfig.CreateEndpointInitializePipeline(endpointConfiguration).GetAwaiter().GetResult();
 
         }
